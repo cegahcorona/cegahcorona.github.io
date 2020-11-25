@@ -5,6 +5,11 @@ html{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+#bg{
+    background-image: url(bg.png);
+    background-size: 100%;
+}
+
 #logo{
     padding-top: 8px;
     height: 57px;
@@ -25,14 +30,6 @@ html{
 .page_header{
     margin-left: 20%;
     margin-right: 20%;
-}
-
-#judul_header{
-    font-weight: 800;
-    position: relative;
-    display: inline;
-    font-size: 35px;
-    color: #f1f2f3;
 }
 
 #isi_header{
@@ -80,8 +77,8 @@ html{
 .page_main2 hr{
     width: 75%;
     color: #bebebe;
-	background-color: #bebebe;
-	height:1px;
+    background-color: #bebebe;
+    height:1px;
     border:0;
 }
 
@@ -92,14 +89,6 @@ html{
 
 .judul_main2{
     font-size: 23px;
-}
-
-.sub_judul_main{
-    width: 50%;
-}
-
-.sub_judul_main p{
-    font-size: 20px;
 }
 
 .sub_judul_main2 p{
@@ -124,7 +113,7 @@ html{
 .isi_main img{
     border: 3px solid #d8232a;
     margin: 10px 0;
-	width:500px;
+    width:500px;
 }
 
 .isi_anggota{
@@ -158,41 +147,27 @@ html{
 }
 
 hr{
-	color: #bebebe;
-	background-color: #bebebe;
-	height:1px;
-	border:0
+    color: #bebebe;
+    background-color: #bebebe;
+    height:1px;
+    border:0
 }
 
 
 #tombol{
-	font-weight: 100;
-	padding: 10px;
-	border: 2px solid #d8232a;
-	color: white;
-	text-decoration: none;
-	border-radius:3px;
-	transition: .5s;
+    font-weight: 100;
+    padding: 10px;
+    border: 2px solid #d8232a;
+    color: white;
+    text-decoration: none;
+    border-radius:3px;
+    transition: .5s;
 }
 
 #tombol:hover{
     color: black;
     border: 2px solid #e6afb1;
-	background-color: #e6afb1;
-}
-
-.alternatif img {
-    width: 500px;
-    height: 300px;
-    font-size: 20px;
-}
-
-.alternatif p {
-    font-size: 20px;
-}
-
-.alternatif ul li {
-    font-size: 20px;
+    background-color: #e6afb1;
 }
 
 .pertombolan{
